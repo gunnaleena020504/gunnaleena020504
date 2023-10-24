@@ -1,0 +1,70 @@
+@import url(https://kit.fontawesome.com/0c7c6f3711.js);
+html, body{
+    margin:0;
+    padding:0;
+    background-image: url(https://t3.ftcdn.net/jpg/03/55/60/70/360_F_355607062_zYMS8jaz4SfoykpWz5oViRVKL32IabTP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-container{
+    margin:auto;
+    margin-top: 200px;/*Center the container horizontally */
+    padding: 15px;/*add margin-to for vertical centering*/
+    background-color: beige;
+    color: rgb(115, 24, 241);
+    box-shadow: 0 5px 10px 0 grey;
+    width: 500px;
+    height: auto;/*adjust the container height automatically*/
+    position: relative;/*position relative for centering*/
+    top: 50%;/*Move the container up by 50% of its height*/
+    transform: translateY(-50%);/*adjust for the height of the container*/
+}
+.input-ico{
+    display: flex;
+    margin-bottom: 15px;
+}
+.input-ico >i{
+    min-width: 40px;
+    padding: 10px;
+    text-align: 10px;
+    background-color: rgb(153,156, 155);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: blue;
+}
+.input-ico:hover >i {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.input-ico > input[type="text"], .input-ico > input[type="password"]{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border: 1px solid lightgreen;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    width:100%;
+
+}
+.button[type="submit"]{
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 105%;
+    padding: 8px;
+    color: blueviolet;
+    background-color: bisque;
+    transition-duration: .5s;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+.button input[type="submit"]:hover{
+    background-color: green;
+}
